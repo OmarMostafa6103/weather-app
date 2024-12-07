@@ -1,0 +1,21 @@
+#dataFrame{
+    min-height: 100vb;
+    background-image:linear-gradient(rgba(114, 114, 183, 0.779) 0% 100%),url(../img/3c001c2340cf9dd7f42c89e58d0dcad5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 img{
+    width: 60px;
+    height: 40px;
+}
+
+#card{
+    background-image: linear-gradient(rgba(105, 105, 179, 0.728) 0% 100%);
+}
+#card button[data-bs-target="#carouselExample"]{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    color: rgba(161, 161, 161, 0.838);
+}

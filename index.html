@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/weather-icon.png"> 
+    <title>test nav</title>
+</head>
+<body>
+    
+    <section id="dataFrame" class="text-white">
+        <div class="container">
+            <div>
+              <h1><img src="img/weather-icon.png" alt=""> Weather</h1>
+              <div class="text-center">
+                <label for="#city">Searching for a city?</label>
+                <input id="city" type="text"class="bg-transparent text-white btn border-2 border-white my-2">
+                <button id="submit" type="submit" class="bg-info-subtle btn">search</button>
+              </div>
+            </div>
+            <div id="card" class="pb-2 px-5">
+                  <div id="carouselExample" class="carousel slide position-relative mb-5" >
+                    <div class="carousel-indicators position-absolute top-100">
+                      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" id="dataShow">
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>   
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
